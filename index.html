@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                color1: '#000000',
+                color2: '#5F0419',
+                color3: '#F9C5C9',
+                color4: '#EE8088',
+                color5: '#EB2332',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Hannah's Portfolio</title>
+</head>
+
+<body class="bg-color1">
+
+    <h1 class="text-7xl text-color3 font-serif text mt-2 text-center">Hannah</h1>
+    <header class="h-64 flex items-center bg-color2 mt-4 ml-8 mr-8 p-6 rounded-3xl font-serif text-color3">
+        <nav class="">
+            <ul class="text-color2 text-2xl ">
+                <li class="bg-color3 w-44 m-4 p-1 text-center rounded-2xl hover:bg-color4 active:bg-color5">
+                    <a href="#about-me">About Me🥀</a>
+                </li>
+                <li class="bg-color3 w-44 m-4 p-1 text-center rounded-2xl hover:bg-color4 active:bg-color5">
+                    <a href="#my-work">My Work🌷</a>
+                </li>
+                <li class="bg-color3 w-44 m-4 p-1 text-center rounded-2xl hover:bg-color4 active:bg-color5">
+                    <a href="#contact-me">Contact Me🌹</a>
+                </li>
+            </ul>
+        </nav>
+        <img class="max-h-full ml-4 rounded-xl" src="assets/photos/red-bangs2.jpg">
+        <img class="invisible md:visible max-h-full ml-4 rounded-xl" src="assets/photos/emmily-bw.jpg">
+        <img class="invisible lg:visible max-h-full ml-4 rounded-xl" src="assets/photos/pond-lucy.jpg">
+        <img class="invisible xl:visible max-h-full ml-4 rounded-xl" src="assets/photos/sirius-age-1.jpg">
+    </header>
+
+    <main>
+        
+
+    <section class="flex">
+        <article id="my-work" class="md:float-right md:w-3/4 md:ml-9 bg-color3 rounded-3xl m-6 p-6 box-border">
+            <header class="font-serif text-5xl mb-2"> <h2>My Work</h2> </header>
+            <h3>My Pre-Work Study Guide</h3>
+            <a target= "_blank" href= "https://hannahmixter.github.io/prework-study-guide/"><img class="hover:hue-rotate-90 h-1/5 rounded-3xl m-2 border-r-4 border-l-2 border-b-8 border-color1" src="assets/photos/study-guide.png" alt="screenshot of prework study guide application"/></a>
+            <br>
+            <a target="_blank" href="" > <img src="./assets/photos/empty.png" alt="future project here" class="hover:hue-rotate-90 h-1/6 rounded-3xl m-4 border-r-4 border-l-2 border-b-8 border-color1"/></a>
+            <a target="_blank" href="" > <img src="./assets/photos/empty.png" alt="future project here" class="hover:hue-rotate-90 h-1/6 rounded-3xl m-4 border-r-4 border-l-2 border-b-8 border-color1"/></a>
+            <a target="_blank" href="" > <img src="./assets/photos/empty.png" alt="future project here" class="hover:hue-rotate-90 h-1/6 rounded-3xl m-4 border-r-4 border-l-2 border-b-8 border-color1"/></a>
+        </article>
+        <article id="about-me" class="md:float-left md:w-1/4 md:mr-9 bg-color3 rounded-3xl m-6 p-6 box-border">
+            <header class="font-serif text-3xl mb-2"> <h2>About Me</h2> </header>
+            <p>
+                I am 24, and I started coding in 2022. <br> My hobbies include sewing, making jewelry, <br> reading, and snowboarding.
+            </p>
+        </article>
+    </section>
+</main>
+<footer id="contact-me" class="bg-color3 rounded-2xl m-6 p-6 box-border">
+    <header> <h2>Contact Me</h2> </header>
+    <br>
+    <p>
+        Email: hannahren111@gmail.com
+    </p>
+</footer>
+
+</body>
